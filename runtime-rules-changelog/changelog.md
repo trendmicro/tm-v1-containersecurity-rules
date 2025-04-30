@@ -31,19 +31,19 @@
 - No new rules added.
 
 ### Changed
-- **Rule:** (T1070.002)Clear Log Activities
+- **Rule:** (T1070.002)Clear Log Activities  
   **Change:** Update condition to be more specific.
 
-- **Rule:** (T1564.001)Create Hidden Files or Directories
+- **Rule:** (T1564.001)Create Hidden Files or Directories  
   **Change:** Improve the condition to exclude known legitimate activity detected by the rule.
 
-- **Rule:** (T1609)Docker or kubernetes client executed in container
+- **Rule:** (T1609)Docker or kubernetes client executed in container  
   **Change:** Update condition to be more specific.
 
-- **Rule:** (T1105)Launch Ingress Remote File Copy Tools in Container
+- **Rule:** (T1105)Launch Ingress Remote File Copy Tools in Container  
   **Change:** Update condition to be more specific.
 
-- **Rule:** (T1611)Switch Linux namespace
+- **Rule:** (T1611)Switch Linux namespace  
   **Change:** Improve the condition to exclude known legitimate activity detected by the rule.
 
 ### Removed
