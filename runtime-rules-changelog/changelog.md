@@ -1,4 +1,5 @@
-# Vision One Container Security Rules Changelog
+# Trend Vision One™️ Container Security
+# Runtime Security Rules Changelog
 
 ## 2025-04-14
 

@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This repository serves as a changelog and information hub for releases of Trend Micro Container Security runtime rules.
+This repository serves as a changelog and information hub for releases of Trend Vision One™️ Container Security Runtime Security rules.
 
 ## License
 
