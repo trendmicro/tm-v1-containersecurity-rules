@@ -1,6 +1,24 @@
 # Trend Vision One™️ Container Security
 # Runtime Security Rules Changelog
 
+## 2025-05-28
+
+### Added
+- No new rules added.
+
+### Changed
+- **Rule:** (T1070.002)Clear Log Activities  
+  **Change:** Improved the condition to exclude known legitimate activity detected by the rule.
+
+- **Rule:** Vulnerable liblzma loaded into sshd  
+  **Change:** Improved the condition to better detect the library name.
+  - Rule name updated to (T1133)Vulnerable liblzma loaded into sshd.
+  - Rule description updated.
+
+### Removed
+- No rules removed.
+
+
 ## 2025-04-14
 
 ### Added
