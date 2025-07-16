@@ -7,19 +7,19 @@
 - No new rules added.
 
 ### Changed
-- **Rule:** (T1222.002)File attributes changed in container
+- **Rule:** (T1222.002)File attributes changed in container  
   **Change:** Improved detection condition to better target relevant file attribute modifications.
 
-- **Rule:** (T1059)Redirect STDOUT/STDIN to Network Connection in Container
+- **Rule:** (T1059)Redirect STDOUT/STDIN to Network Connection in Container  
   **Change:** Improved the performance and excluded known legitimate activity.
 
-- **Rule:** (T1021.004)Lateral Movement using SSH
+- **Rule:** (T1021.004)Lateral Movement using SSH  
   **Change:** Improved performance and refined detection logic for more targeted alerts.
 
-- **Rule:** (T1611)Switch Linux namespace
+- **Rule:** (T1611)Switch Linux namespace  
   **Change:** Enhanced detection condition to exclude known legitimate activity.
 
-- **Rule:** (T1059)System procs network activity
+- **Rule:** (T1059)System procs network activity  
   **Change:** Improved conditions to exclude known legitimate activity.
 
 ### Removed
