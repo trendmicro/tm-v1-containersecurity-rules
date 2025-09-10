@@ -1,6 +1,75 @@
 # Trend Vision One™️ Container Security
 # Runtime Security Rules Changelog
 
+## 2025-09-10
+
+### Added
+- No new rules added.
+
+### Changed
+- **Rule:** (T1649) Add system certificates  
+  **Change:** Simplified rule condition.
+
+- **Rule:** (T1496)HugePages changed in container  
+  **Change:** Fixed rule condition.
+
+- **Rule:** (T1564.001)Create Hidden Files or Directories
+  **Change:** Major rule rework to create more actionable detections.
+
+- **Rule:** (T1070.004)Dangerous deletion detected in container  
+  **Change:** Simplified rule logic.
+
+- **Rule:** (T1496)Detect miner termination in container  
+  **Change:** Enhanced detection condition to extend coverage.
+
+- **Rule:** (T1574.006)Dynamic linker changed  
+  **Change:** Enhanced detection logic for more targeted alerts.
+
+- **Rule:** (T1552.005)Contact EC2 Instance Metadata Service From Container  
+  **Change:** Enhanced detection logic for more targeted alerts.
+
+- **Rule:** (T1613)Specific discovery tool executed in container  
+  **Change:** Updated list of tools detected by the rule.
+
+- **Rule:** (T1059.004)Offensive tool executed in container
+  **Change:** Updated list of tools detected by the rule.
+
+- **Rule:** (T1222.002)File attributes changed in container  
+  **Change:** Enhanced detection condition to extend coverage.
+
+- **Rule:** (T1055.009)Inject File to Process Memory Virtual Space  
+  **Change:** Fixed rule condition.
+
+- **Rule:** (T1505)Launch Package Management Process in Container  
+  **Change:** Simplified rule condition.
+
+- **Rule:** (T1610)Launch Privileged Container  
+  **Change:** Improved condition to better detect privileged containers.
+
+- **Rule:** (T1548.001)Set Setuid or Setgid bit  
+  **Change:** Enhanced detection logic for more targeted alerts.
+
+- **Rule:** (T1611)Switch Linux namespace  
+  **Change:** Enhanced detection condition to exclude known legitimate activity.
+
+- **Rule:** (T1611)Namespace change using unshare in container  
+  **Change:** Enhanced detection condition to exclude known legitimate activity.
+
+- **Rule:** (T1562)Write to Selinux Config  
+  **Change:** Improved performance and refined detection logic for more targeted alerts.
+
+- **Rule:** (T1562)Write to System Control  
+  **Change:** Improved performance and refined detection logic for more targeted alerts.
+
+### Removed
+- **Rule:** (T1613)Amicontained download detected in container
+- **Rule:** (T1613)BOtB download detected in container
+- **Rule:** (T1562.004)Iptables Modification
+- **Rule:** (T1071)Possible IRC communication in container
+- **Rule:** (T1613)Peirates tool detected in container
+- **Rule:** (T1059.006)Python urllib Import Command Execution
+
+
 ## 2025-07-09
 
 ### Added
