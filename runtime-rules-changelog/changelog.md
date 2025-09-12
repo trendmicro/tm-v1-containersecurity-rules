@@ -13,7 +13,7 @@
 - **Rule:** (T1496)HugePages changed in container  
   **Change:** Fixed rule condition.
 
-- **Rule:** (T1564.001)Create Hidden Files or Directories
+- **Rule:** (T1564.001)Create Hidden Files or Directories  
   **Change:** Major rule rework to create more actionable detections.
 
 - **Rule:** (T1070.004)Dangerous deletion detected in container  
@@ -31,7 +31,7 @@
 - **Rule:** (T1613)Specific discovery tool executed in container  
   **Change:** Updated list of tools detected by the rule.
 
-- **Rule:** (T1059.004)Offensive tool executed in container
+- **Rule:** (T1059.004)Offensive tool executed in container  
   **Change:** Updated list of tools detected by the rule.
 
 - **Rule:** (T1222.002)File attributes changed in container  
